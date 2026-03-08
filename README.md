@@ -89,6 +89,8 @@ Hibernate automatically creates the `email_replies` table with these columns:
 **Generated Reply**
 ![Generated Reply](result1.png)
 
+<br> 
+
 **Home Page**
 ![Home Page](home1.png)
 
@@ -102,6 +104,6 @@ Hibernate automatically creates the `email_replies` table with these columns:
 
 ## Author
 
-Vijayalaxmi  
-MCA Graduate | Aspiring Java Backend Developer  
+Vijayalaxmi Biradar
+MCA Graduate | Aspiring Java Developer  
 GitHub: https://github.com/vijayalaxmi168
