@@ -82,18 +82,27 @@ mvn spring-boot:run
 Hibernate automatically creates the `email_replies` table with these columns:
 - id, email_content, tone, generated_reply, created_at
 
-## Screenshots
 
 ## Screenshots
+
+<div align="center">
 
 **Home Page**
+
 ![Home Page](home1.png)
 
+</div>
 
-<br> 
+<br>
+
+<div align="center">
 
 **Generated Reply**
+
 ![Generated Reply](result1.png)
+
+</div>
+```
 
 
 ## What I learned building this
