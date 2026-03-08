@@ -111,6 +111,6 @@ Hibernate automatically creates the `email_replies` table with these columns:
 
 ## Author
 
-Vijayalaxmi Biradar | Aspiring Java Developer  
+Vijayalaxmi Biradar 
 GitHub: https://github.com/vijayalaxmi168
 
