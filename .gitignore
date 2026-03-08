@@ -1,0 +1,18 @@
+# Maven
+target/
+*.class
+*.jar
+*.war
+
+# IDE
+.idea/
+.eclipse/
+*.iml
+.vscode/
+
+# Spring Boot
+*.log
+application-local.properties
+
+# Never commit your API keys!
+# Use environment variables in production
