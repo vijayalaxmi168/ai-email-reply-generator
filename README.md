@@ -86,13 +86,15 @@ Hibernate automatically creates the `email_replies` table with these columns:
 
 ## Screenshots
 
-**Generated Reply**
-![Generated Reply](result1.png)
+**Home Page**
+![Home Page](home1.png)
+
 
 <br> 
 
-**Home Page**
-![Home Page](home1.png)
+**Generated Reply**
+![Generated Reply](result1.png)
+
 
 ## What I learned building this
 
