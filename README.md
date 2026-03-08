@@ -88,7 +88,8 @@ Hibernate automatically creates the `email_replies` table with these columns:
 ![Home Page](home1.png)
 
 **Generated Reply**
-![Generated Reply](result1.png)
+![Generated Reply]
+(result1.png)
 
 ## What I learned building this
 
