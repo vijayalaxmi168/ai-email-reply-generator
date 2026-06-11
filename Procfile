@@ -1,0 +1,1 @@
+web: java -jar ai-email-reply-generator-1.0.0.jar --server.port=5000
