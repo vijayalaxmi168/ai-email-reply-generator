@@ -178,4 +178,4 @@ Hibernate automatically creates the `email_replies` table:
 - 📧 Email: vijayalaxmib0106@gmail.com
 - 💼 LinkedIn: [vijaylaxmi-biradar-v24](https://linkedin.com/in/vijaylaxmi-biradar-v24)
 - 🐙 GitHub: [vijayalaxmi168](https://github.com/vijayalaxmi168)
-- 🌐 Portfolio: [vijayalaxmib-portfolio.netlify.app](https://vijayalaxmib-portfolio.netlify.app)
+- 🌐 Portfolio: [vijayalaxmi06-portfolio.netlify.app](https://vijayalaxmi06-portfolio.netlify.app/)
