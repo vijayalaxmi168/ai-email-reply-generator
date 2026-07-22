@@ -4,23 +4,7 @@ import jakarta.persistence.*;
 import lombok.*;
 import java.time.LocalDateTime;
 
-/**
- * ENTITY CLASS — Maps to the 'email_replies' table in MySQL.
- *
- * JPA Annotations explained:
- *   @Entity       → tells Spring this is a database table
- *   @Table        → specifies table name
- *   @Id           → marks primary key
- *   @GeneratedValue → auto-increments the ID
- *   @Column       → maps field to a specific DB column
- *   @PrePersist   → runs a method automatically before saving to DB
- *
- * Lombok Annotations:
- *   @Data         → generates getters, setters, toString, equals, hashCode
- *   @NoArgsConstructor → generates no-argument constructor
- *   @AllArgsConstructor → generates constructor with all fields
- *   @Builder      → enables builder pattern: EmailReply.builder().tone("formal").build()
- */
+
 @Entity
 @Table(name = "email_replies")
 @Data
