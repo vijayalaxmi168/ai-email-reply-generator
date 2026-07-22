@@ -12,23 +12,11 @@ import java.time.LocalDateTime;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * GLOBAL EXCEPTION HANDLER — Catches exceptions from all controllers.
- *
- * @RestControllerAdvice → intercepts exceptions thrown anywhere in controllers
- * @ExceptionHandler     → specifies which exception type to handle
- *
- * This ensures we always return clean JSON error responses
- * instead of ugly stack traces to the client.
- */
 @Slf4j
 @RestControllerAdvice
 public class GlobalExceptionHandler {
 
-    /**
-     * Handles validation errors (when @Valid fails on DTO).
-     * Returns a map of field → error message.
-     */
+   
     @ExceptionHandler(MethodArgumentNotValidException.class)
     public ResponseEntity<Map<String, Object>> handleValidationErrors(
             MethodArgumentNotValidException ex) {
@@ -49,9 +37,7 @@ public class GlobalExceptionHandler {
         return ResponseEntity.badRequest().body(response);
     }
 
-    /**
-     * Handles RuntimeException (e.g., AI call failed, ID not found).
-     */
+    
     @ExceptionHandler(RuntimeException.class)
     public ResponseEntity<Map<String, Object>> handleRuntimeException(RuntimeException ex) {
         log.error("Runtime error: {}", ex.getMessage());
