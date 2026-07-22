@@ -3,10 +3,7 @@ package com.aiemailreply.dto;
 import lombok.*;
 import java.time.LocalDateTime;
 
-/**
- * RESPONSE DTO — Sent back to the frontend after generating a reply.
- * Contains the AI-generated reply and metadata.
- */
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
