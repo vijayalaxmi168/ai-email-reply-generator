@@ -3,14 +3,7 @@ package com.aiemailreply;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-/**
- * Main entry point for the AI Email Reply Generator application.
- *
- * @SpringBootApplication combines:
- *   - @Configuration (app config)
- *   - @EnableAutoConfiguration (auto-setup Spring beans)
- *   - @ComponentScan (scans all classes in this package)
- */
+
 @SpringBootApplication
 public class AiEmailReplyGeneratorApplication {
 
