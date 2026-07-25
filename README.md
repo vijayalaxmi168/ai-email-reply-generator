@@ -89,7 +89,7 @@ CREATE DATABASE email_reply_db;
 ```properties
 spring.datasource.password=your_mysql_password
 openai.api.key=your_gemini_api_key
-openai.api.url=https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent
+openai.api.url=..
 ```
 
 **4. Run the app**
