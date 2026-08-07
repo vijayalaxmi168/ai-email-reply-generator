@@ -51,7 +51,6 @@ public class WebController {
             model.addAttribute("errorMessage", "Failed to generate reply. Please check your API key.");
         }
 
-        // Reload form and history
         model.addAttribute("request", new EmailReplyRequestDTO());
         model.addAttribute("recentReplies", emailReplyService.getAllReplies());
         return "index";
