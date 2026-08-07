@@ -27,8 +27,8 @@ public class OpenAiConfig {
     @Bean
     public RestTemplate restTemplate() {
         SimpleClientHttpRequestFactory factory = new SimpleClientHttpRequestFactory();
-        factory.setConnectTimeout(10000);  // 10 seconds
-        factory.setReadTimeout(30000);     // 30 seconds (AI can be slow)
+        factory.setConnectTimeout(10000);  
+        factory.setReadTimeout(30000);     
         return new RestTemplate(factory);
     }
 
